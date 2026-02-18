@@ -31,7 +31,7 @@ The NAHARCO-ALDUWLYA project is built using the following technologies:
 
 ## Live Demo
 
-You can view the live version of the application at: [Live Demo](https://github.com/Islam412/NAHARCO-ALDUWLYA)
+You can view the live version of the application at: [Live Demo]( https://islam412.github.io/NAHARCO-ALDUWLYA/)
 
 ## Installation
 
