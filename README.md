@@ -1,8 +1,8 @@
 markdown
 
-# NAHARCO ALDUWLYA
+# NAHARCO ALDUWLIYA
 
-Welcome to the NAHARCO-ALDUWLYA project! This repository showcases a comprehensive web application designed to provide information about the Naharco Alduwlya organization. The application is structured to offer an engaging user experience to showcase the services provided by the organization.
+Welcome to the NAHARCO-ALDUWLYA project! This repository showcases a comprehensive web application designed to provide information about the NAHARCO ALDUWLIYA organization. The application is structured to offer an engaging user experience to showcase the services provided by the organization.
 
 
 ## Project Demo 
@@ -11,7 +11,7 @@ Welcome to the NAHARCO-ALDUWLYA project! This repository showcases a comprehensi
 
 ## Project Description
 
-NAHARCO-ALDUWLYA is a personal and professional platform that aims to highlight the various services offered by Naharco Alduwlya. This web application includes sections dedicated to the organization's mission, services, blog posts, and contact information, making it easier for users to navigate through relevant information and reach out for inquiries.
+NAHARCO-ALDUWLYA is a personal and professional platform that aims to highlight the various services offered by NAHARCO ALDUWLIYA. This web application includes sections dedicated to the organization's mission, services, blog posts, and contact information, making it easier for users to navigate through relevant information and reach out for inquiries.
 
 ### Features
 
@@ -31,7 +31,7 @@ The NAHARCO-ALDUWLYA project is built using the following technologies:
 
 ## Live Demo
 
-You can view the live version of the application at: [Live Demo]( https://islam412.github.io/NAHARCO-ALDUWLYA/)
+You can view the live version of the application at: [Live Demo]( https://islam412.github.io/NAHARCO-ALDUWLIYA/)
 
 ## Installation
 
