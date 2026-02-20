@@ -9,6 +9,35 @@
     <link rel="stylesheet" href="NAHARCO_ALDUWLYA.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" href="logo.png">
+
+    <style>
+        /* CSS جديد للـ modern-grid */
+.modern-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.modern-image, .modern-text {
+    flex: 1 1 500px; /* النص والصورة ياخدوا نفس المساحة */
+}
+
+.modern-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+@media (max-width: 992px) {
+    .modern-grid {
+        flex-direction: column; /* على الموبايل تكون الصورة فوق النص */
+        text-align: right;
+    }
+}
+    </style>
 </head>
 
 <body>
@@ -44,6 +73,9 @@
 
     <section class="modern-section container">
         <div class="modern-grid">
+            <div class="modern-image">
+                <img src="img/1ar" alt="الاستشارات الجمركية" style="width: 555px; height: 555px;">
+            </div>
             <div class="modern-text">
                 <h2>الاستشارات الجمركية والتجارية</h2>
                 <p>نقدم سنوات من الخبرة في التجارة الدولية لمساعدتك على اتخاذ القرارات الصحيحة. فريقنا يقدم الدعم الكامل في:</p>
@@ -62,15 +94,14 @@
                     </div>
                 </div>
             </div>
-            <div class="modern-image">
-                <img src="img/1ar" alt="الاستشارات الجمركية" style="width: 555px; height: 555px;">
-            </div>
+            
         </div>
     </section>
 
-
+    
     <section class="modern-section container" style="background-color: #f9f9f9; border-radius: 20px;">
         <div class="modern-grid" style="direction: rtl;"> <!-- ترتيب السيكشن من اليمين لليسار -->
+            <br>
             <div class="modern-image">
                 <img src="img/2" alt="توريد السلع" style="width: 555px; height: 555px;">
             </div>
@@ -98,6 +129,10 @@
 
     <section class="modern-section container">
         <div class="modern-grid" style="direction: rtl;">
+            <br>
+            <div class="modern-image">
+                <img src="img/3" alt="خدمات اللوجستيات" style="width: 555px; height: 555px;">
+            </div>
             <div class="modern-text" style="direction: rtl; text-align: right;">
                 <h2>اللوجستيات وحلول الشحن </h2>
                 <p>لا تقلق بشأن تفاصيل الشحن بين الكويت والصين، نحن ندير عملية اللوجستيات من الباب إلى الباب بأقصى كفاءة واحترافية:</p>
@@ -116,14 +151,13 @@
                     </div>
                 </div>
             </div>
-            <div class="modern-image">
-                <img src="img/3" alt="خدمات اللوجستيات" style="width: 555px; height: 555px;">
-            </div>
+            
         </div>
     </section>
 
     <section class="modern-section container" style="background-color: #f4f8fc; border-radius: 20px;">
         <div class="modern-grid" style="direction: rtl;">
+            <br>
             <div class="modern-image">
                 <img src="img/14.png" style="width: 555px; height: 555px;" alt="الاستشارات الهندسية">
             </div>
@@ -157,6 +191,10 @@
 
     <section class="modern-section container" style="background-color: #eef6f9; border-radius: 20px;">
         <div class="modern-grid" style="direction: rtl;">
+            <br>
+            <div class="modern-image">
+                <img src="img/صورة 1.jpg.jpeg" style="width: 500px; height: 560px;" alt="الاستشارات الهندسية الميدانية">
+            </div>
             <div class="modern-text" style="direction: rtl; text-align: right;">
                 <span class="sub-title">الهندسة</span>
                 <h2>الاستشارات الهندسية الميدانية ومواقع المشاريع</h2>
@@ -182,14 +220,13 @@
                     </div>
                 </div>
             </div>
-            <div class="modern-image">
-                <img src="img/صورة 1.jpg.jpeg" style="width: 500px; height: 560px;" alt="الاستشارات الهندسية الميدانية">
-            </div>
+            
         </div>
     </section>
 
     <section class="modern-section container" style="background-color: #f9f9f9; border-radius: 20px;">
         <div class="modern-grid" style="direction: rtl;">
+            <br>
             <div class="modern-image">
                 <img src="img/صورة 2.jpg.jpeg" style="width: 500px; height: 560px;" alt="الاستشارات الهندسية الداخلية">
             </div>
@@ -223,6 +260,10 @@
 
     <section class="modern-section container" style="background-color: #f4f8f9; border-radius: 20px;">
         <div class="modern-grid" style="direction: rtl;">
+            <br>
+            <div class="modern-image">
+                <img src="img/11.png" alt="المواد والمعدات الصحية" style="width: 555px; height: 555px;">
+            </div>
             <div class="modern-text" style="direction: rtl; text-align: right;">
                 <span class="sub-title">المواد الصحية</span>
                 <h2>المواد والمعدات الصحية</h2>
@@ -248,14 +289,13 @@
                     </div>
                 </div>
             </div>
-            <div class="modern-image">
-                <img src="img/11.png" alt="المواد والمعدات الصحية" style="width: 555px; height: 555px;">
-            </div>
+            
         </div>
     </section>
 
     <section class="modern-section container" style="background-color: #f9f9f9; border-radius: 20px;">
         <div class="modern-grid" style="direction: rtl;">
+            <br>
             <div class="modern-image">
                 <img src="img/3.png" alt="مواد التشطيب" style="width: 555px; height: 555px;">
             </div>
@@ -289,6 +329,10 @@
 
     <section class="modern-section container" style="background-color: #eef6f9; border-radius: 20px;">
         <div class="modern-grid" style="direction: rtl;">
+            <br>
+            <div class="modern-image">
+                <img src="img/33.png" style="width: 500px; height: 560px;" alt="توريد مواد البناء">
+            </div>
             <div class="modern-text" style="direction: rtl; text-align: right;">
                 <h2>توريد مواد البناء</h2>
                 <p>
@@ -313,14 +357,13 @@
                     </div>
                 </div>
             </div>
-            <div class="modern-image">
-                <img src="img/33.png" style="width: 500px; height: 560px;" alt="توريد مواد البناء">
-            </div>
+            
         </div>
     </section>
 
     <section class="modern-section container" style="background-color: #eef6f9; border-radius: 20px;">
         <div class="modern-grid" style="direction: rtl;">
+            <br>
             <div class="modern-image">
                 <img src="img/5.jpg" style="width: 500px; height: 560px;" alt="توريد الأدوات الكهربائية">
             </div>
